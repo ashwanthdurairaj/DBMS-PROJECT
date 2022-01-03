@@ -3,6 +3,23 @@ import tkinter.font as tkFont
 from TEAM2_SELECTION import App as d
 class App:
     def __init__(self, root):
+        self.call265 = 0
+        self.call861 = 0
+        self.call653 = 0
+        self.call308 = 0
+        self.call194 = 0
+        self.call986 = 0
+        self.call680 = 0
+        self.call811 = 0
+        self.call845 = 0
+        self.call271 = 0
+        self.call794 = 0
+        self.call791 = 0
+        self.call41 = 0
+        self.call653 = 0
+        self.call962 = 0
+        self.call117 = 0
+        self.players = 0
         #setting title
         root.title("SPORTS MANAGEMENT SYSTEM")
         root.configure(background = "brown")
@@ -22,7 +39,7 @@ class App:
         GCheckBox_265["justify"] = "center"
         GCheckBox_265["text"] = "CheckBox"
         GCheckBox_265.place(x=10,y=150,width=150,height=50)
-        GCheckBox_265["offvalue"] = "0"
+        GCheckBox_265["offvalue"] = "1"
         GCheckBox_265["onvalue"] = "1"
         GCheckBox_265["command"] = self.GCheckBox_265_command
 
@@ -41,7 +58,7 @@ class App:
         GCheckBox_861["justify"] = "center"
         GCheckBox_861["text"] = "CheckBox"
         GCheckBox_861.place(x=10,y=310,width=150,height=50)
-        GCheckBox_861["offvalue"] = "0"
+        GCheckBox_861["offvalue"] = "1"
         GCheckBox_861["onvalue"] = "1"
         GCheckBox_861["command"] = self.GCheckBox_861_command
 
@@ -52,7 +69,7 @@ class App:
         GCheckBox_653["justify"] = "center"
         GCheckBox_653["text"] = "CheckBox"
         GCheckBox_653.place(x=460,y=310,width=150,height=50)
-        GCheckBox_653["offvalue"] = "0"
+        GCheckBox_653["offvalue"] = "1"
         GCheckBox_653["onvalue"] = "1"
         GCheckBox_653["command"] = self.GCheckBox_653_command
 
@@ -63,7 +80,7 @@ class App:
         GCheckBox_308["justify"] = "center"
         GCheckBox_308["text"] = "CheckBox"
         GCheckBox_308.place(x=250,y=390,width=150,height=50)
-        GCheckBox_308["offvalue"] = "0"
+        GCheckBox_308["offvalue"] = "1"
         GCheckBox_308["onvalue"] = "1"
         GCheckBox_308["command"] = self.GCheckBox_308_command
 
@@ -74,7 +91,7 @@ class App:
         GCheckBox_194["justify"] = "center"
         GCheckBox_194["text"] = "CheckBox"
         GCheckBox_194.place(x=250,y=150,width=150,height=50)
-        GCheckBox_194["offvalue"] = "0"
+        GCheckBox_194["offvalue"] = "1"
         GCheckBox_194["onvalue"] = "1"
         GCheckBox_194["command"] = self.GCheckBox_194_command
 
@@ -85,7 +102,7 @@ class App:
         GCheckBox_986["justify"] = "center"
         GCheckBox_986["text"] = "CheckBox"
         GCheckBox_986.place(x=10,y=230,width=150,height=50)
-        GCheckBox_986["offvalue"] = "0"
+        GCheckBox_986["offvalue"] = "1"
         GCheckBox_986["onvalue"] = "1"
         GCheckBox_986["command"] = self.GCheckBox_986_command
 
@@ -96,7 +113,7 @@ class App:
         GCheckBox_680["justify"] = "center"
         GCheckBox_680["text"] = "CheckBox"
         GCheckBox_680.place(x=460,y=70,width=150,height=50)
-        GCheckBox_680["offvalue"] = "0"
+        GCheckBox_680["offvalue"] = "1"
         GCheckBox_680["onvalue"] = "1"
         GCheckBox_680["command"] = self.GCheckBox_680_command
 
@@ -107,7 +124,7 @@ class App:
         GCheckBox_811["justify"] = "center"
         GCheckBox_811["text"] = "CheckBox"
         GCheckBox_811.place(x=250,y=310,width=150,height=50)
-        GCheckBox_811["offvalue"] = "0"
+        GCheckBox_811["offvalue"] = "1"
         GCheckBox_811["onvalue"] = "1"
         GCheckBox_811["command"] = self.GCheckBox_811_command
 
@@ -118,7 +135,7 @@ class App:
         GCheckBox_845["justify"] = "center"
         GCheckBox_845["text"] = "CheckBox"
         GCheckBox_845.place(x=250,y=230,width=150,height=50)
-        GCheckBox_845["offvalue"] = "0"
+        GCheckBox_845["offvalue"] = "1"
         GCheckBox_845["onvalue"] = "1"
         GCheckBox_845["command"] = self.GCheckBox_845_command
 
@@ -129,7 +146,7 @@ class App:
         GCheckBox_271["justify"] = "center"
         GCheckBox_271["text"] = "CheckBox"
         GCheckBox_271.place(x=10,y=70,width=150,height=50)
-        GCheckBox_271["offvalue"] = "0"
+        GCheckBox_271["offvalue"] = "1"
         GCheckBox_271["onvalue"] = "1"
         GCheckBox_271["command"] = self.GCheckBox_271_command
 
@@ -140,7 +157,7 @@ class App:
         GCheckBox_794["justify"] = "center"
         GCheckBox_794["text"] = "CheckBox"
         GCheckBox_794.place(x=250,y=70,width=150,height=50)
-        GCheckBox_794["offvalue"] = "0"
+        GCheckBox_794["offvalue"] = "1"
         GCheckBox_794["onvalue"] = "1"
         GCheckBox_794["command"] = self.GCheckBox_794_command
 
@@ -151,7 +168,7 @@ class App:
         GCheckBox_791["justify"] = "center"
         GCheckBox_791["text"] = "CheckBox"
         GCheckBox_791.place(x=460,y=230,width=150,height=50)
-        GCheckBox_791["offvalue"] = "0"
+        GCheckBox_791["offvalue"] = "1"
         GCheckBox_791["onvalue"] = "1"
         GCheckBox_791["command"] = self.GCheckBox_791_command
 
@@ -162,7 +179,7 @@ class App:
         GCheckBox_41["justify"] = "center"
         GCheckBox_41["text"] = "CheckBox"
         GCheckBox_41.place(x=460,y=150,width=150,height=50)
-        GCheckBox_41["offvalue"] = "0"
+        GCheckBox_41["offvalue"] = "1"
         GCheckBox_41["onvalue"] = "1"
         GCheckBox_41["command"] = self.GCheckBox_41_command
 
@@ -173,7 +190,7 @@ class App:
         GCheckBox_653["justify"] = "center"
         GCheckBox_653["text"] = "CheckBox"
         GCheckBox_653.place(x=460,y=310,width=150,height=50)
-        GCheckBox_653["offvalue"] = "0"
+        GCheckBox_653["offvalue"] = "1"
         GCheckBox_653["onvalue"] = "1"
         GCheckBox_653["command"] = self.GCheckBox_653_command
 
@@ -184,7 +201,7 @@ class App:
         GCheckBox_962["justify"] = "center"
         GCheckBox_962["text"] = "CheckBox"
         GCheckBox_962.place(x=10,y=390,width=150,height=50)
-        GCheckBox_962["offvalue"] = "0"
+        GCheckBox_962["offvalue"] = "1"
         GCheckBox_962["onvalue"] = "1"
         GCheckBox_962["command"] = self.GCheckBox_962_command
 
@@ -195,7 +212,7 @@ class App:
         GCheckBox_117["justify"] = "center"
         GCheckBox_117["text"] = "CheckBox"
         GCheckBox_117.place(x=460,y=390,width=150,height=50)
-        GCheckBox_117["offvalue"] = "0"
+        GCheckBox_117["offvalue"] = "1"
         GCheckBox_117["onvalue"] = "1"
         GCheckBox_117["command"] = self.GCheckBox_117_command
 
@@ -210,70 +227,191 @@ class App:
         GButton_192["command"] = self.GButton_192_command
 
 
-
     def GCheckBox_265_command(self):
-        print("command")
-
-
+        if(self.call265 == 0):
+            print("265")
+            self.call265 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
+        else:
+            pass
     def GCheckBox_861_command(self):
-        print("command")
-
-
+        if(self.call861 == 0):
+            print("861")
+            self.call861 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
+        else:
+            pass
     def GCheckBox_653_command(self):
-        print("command")
+        if(self.call653 == 0):
+            print("653")
+            self.call653 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
 
-
+        else:
+            pass
     def GCheckBox_308_command(self):
-        print("command")
-
-
+        if(self.call308 == 0):
+            print("308")
+            self.call308 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
+        else:
+            pass
     def GCheckBox_194_command(self):
-        print("command")
+        if(self.call194 == 0):
+            print("194")
+            self.call194 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
 
-
+        else:
+            pass
     def GCheckBox_986_command(self):
-        print("command")
+        if(self.call986 == 0):
+            print("986")
+            self.call986 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
 
-
+        else:
+            pass
     def GCheckBox_680_command(self):
-        print("command")
-
-
+        if(self.call680 == 0):
+            print("680")
+            self.call680 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
+        else:
+            pass
     def GCheckBox_811_command(self):
-        print("command")
+        if(self.call811 == 0):
+            print("811")
+            self.call811 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
 
-
+        else:
+            pass
     def GCheckBox_845_command(self):
-        print("command")
+        if(self.call845 == 0):
+            print("845")
+            self.call845 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
 
-
+        else:
+            pass
     def GCheckBox_271_command(self):
-        print("command")
-
-
+        if(self.call271 == 0):
+            print("271")
+            self.call271 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
+        else:
+            pass
     def GCheckBox_794_command(self):
-        print("command")
+        if(self.call794 == 0):
+            print("794")
+            self.call794 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
 
-
+        else:
+            pass
     def GCheckBox_791_command(self):
-        print("command")
+        if(self.call791 == 0):
+            print("791")
+            self.call791 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
 
-
+        else:
+            pass
     def GCheckBox_41_command(self):
-        print("command")
-
-
+        if(self.call41 == 0):
+            print("41")
+            self.call41 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
+        else:
+            pass
     def GCheckBox_653_command(self):
-        print("command")
-
-
+        if(self.call653 == 0):
+            print("653")
+            self.call653 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
+        else:
+            pass
+   
     def GCheckBox_962_command(self):
-        print("command")
-
+        if(self.call962 == 0):
+            print("962")
+            self.call962 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
+        else:
+            pass
 
     def GCheckBox_117_command(self):
-        print("command")
-
+        if(self.call117 == 0):
+            print("117")
+            self.call117 += 1
+            self.players += 1
+        if(self.players == 11):
+            root = tk.Tk()
+            app = d(root)
+            root.mainloop()
+        else:
+            pass
     def GButton_192_command(self):
         root = tk.Tk()
         app = d(root)
