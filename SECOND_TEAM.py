@@ -39,7 +39,8 @@ class App:
         GLineEdit_299["font"] = ft
         GLineEdit_299["fg"] = "#333333"
         GLineEdit_299["justify"] = "center"
-        GLineEdit_299["text"] = "Entry"
+        self.run299 = tk.StringVar()
+        GLineEdit_299["textvariable"] = self.run299
         GLineEdit_299.place(x=160,y=50,width=70,height=25)
 
         GLineEdit_333=tk.Entry(root)
@@ -48,7 +49,8 @@ class App:
         GLineEdit_333["font"] = ft
         GLineEdit_333["fg"] = "#333333"
         GLineEdit_333["justify"] = "center"
-        GLineEdit_333["text"] = "Entry"
+        self.run333 = tk.StringVar()
+        GLineEdit_333["textvariable"] = self.run333
         GLineEdit_333.place(x=300,y=50,width=70,height=25)
 
         GLabel_203=tk.Label(root)
@@ -65,7 +67,8 @@ class App:
         GLineEdit_429["font"] = ft
         GLineEdit_429["fg"] = "#333333"
         GLineEdit_429["justify"] = "center"
-        GLineEdit_429["text"] = "Entry"
+        self.run429 = tk.StringVar()
+        GLineEdit_429["textvariable"] = self.run429
         GLineEdit_429.place(x=160,y=90,width=70,height=25)
 
         GLineEdit_814=tk.Entry(root)
@@ -74,7 +77,8 @@ class App:
         GLineEdit_814["font"] = ft
         GLineEdit_814["fg"] = "#333333"
         GLineEdit_814["justify"] = "center"
-        GLineEdit_814["text"] = "Entry"
+        self.run814 = tk.StringVar()
+        GLineEdit_814["textvariable"] = self.run814
         GLineEdit_814.place(x=300,y=90,width=70,height=25)
 
         GLabel_77=tk.Label(root)
@@ -91,7 +95,8 @@ class App:
         GLineEdit_326["font"] = ft
         GLineEdit_326["fg"] = "#333333"
         GLineEdit_326["justify"] = "center"
-        GLineEdit_326["text"] = "Entry"
+        self.run326 = tk.StringVar()
+        GLineEdit_326["textvariable"] = self.run326
         GLineEdit_326.place(x=160,y=130,width=70,height=25)
 
         GLineEdit_112=tk.Entry(root)
@@ -100,7 +105,8 @@ class App:
         GLineEdit_112["font"] = ft
         GLineEdit_112["fg"] = "#333333"
         GLineEdit_112["justify"] = "center"
-        GLineEdit_112["text"] = "Entry"
+        self.run112 = tk.StringVar()
+        GLineEdit_112["textvariable"] = self.run112
         GLineEdit_112.place(x=300,y=130,width=70,height=25)
 
         GLabel_176=tk.Label(root)
@@ -117,7 +123,8 @@ class App:
         GLineEdit_497["font"] = ft
         GLineEdit_497["fg"] = "#333333"
         GLineEdit_497["justify"] = "center"
-        GLineEdit_497["text"] = "Entry"
+        self.run497 = tk.StringVar()
+        GLineEdit_497["textvariable"] = self.run497
         GLineEdit_497.place(x=160,y=170,width=70,height=25)
 
         GLineEdit_898=tk.Entry(root)
@@ -126,7 +133,8 @@ class App:
         GLineEdit_898["font"] = ft
         GLineEdit_898["fg"] = "#333333"
         GLineEdit_898["justify"] = "center"
-        GLineEdit_898["text"] = "Entry"
+        self.run898 = tk.StringVar()
+        GLineEdit_898["textvariable"] = self.run898
         GLineEdit_898.place(x=300,y=170,width=70,height=25)
 
         GLabel_652=tk.Label(root)
@@ -143,7 +151,8 @@ class App:
         GLineEdit_150["font"] = ft
         GLineEdit_150["fg"] = "#333333"
         GLineEdit_150["justify"] = "center"
-        GLineEdit_150["text"] = "Entry"
+        self.run150 = tk.StringVar()
+        GLineEdit_150["textvariable"] = self.run150
         GLineEdit_150.place(x=160,y=210,width=70,height=25)
 
         GLineEdit_86=tk.Entry(root)
@@ -152,7 +161,8 @@ class App:
         GLineEdit_86["font"] = ft
         GLineEdit_86["fg"] = "#333333"
         GLineEdit_86["justify"] = "center"
-        GLineEdit_86["text"] = "Entry"
+        self.run86 = tk.StringVar()
+        GLineEdit_86["textvariable"] = self.run86
         GLineEdit_86.place(x=300,y=210,width=70,height=25)
 
         GLabel_30=tk.Label(root)
@@ -169,7 +179,8 @@ class App:
         GLineEdit_44["font"] = ft
         GLineEdit_44["fg"] = "#333333"
         GLineEdit_44["justify"] = "center"
-        GLineEdit_44["text"] = "Entry"
+        self.run44 = tk.StringVar()
+        GLineEdit_44["textvariable"] = self.run44
         GLineEdit_44.place(x=160,y=250,width=70,height=25)
 
         GLineEdit_394=tk.Entry(root)
@@ -178,7 +189,8 @@ class App:
         GLineEdit_394["font"] = ft
         GLineEdit_394["fg"] = "#333333"
         GLineEdit_394["justify"] = "center"
-        GLineEdit_394["text"] = "Entry"
+        self.run394 = tk.StringVar()
+        GLineEdit_394["textvariable"] = self.run394
         GLineEdit_394.place(x=300,y=250,width=70,height=25)
 
         GLabel_723=tk.Label(root)
@@ -195,7 +207,8 @@ class App:
         GLineEdit_211["font"] = ft
         GLineEdit_211["fg"] = "#333333"
         GLineEdit_211["justify"] = "center"
-        GLineEdit_211["text"] = "Entry"
+        self.run211 = tk.StringVar()
+        GLineEdit_211["textvariable"] = self.run211
         GLineEdit_211.place(x=160,y=290,width=70,height=25)
 
         GLineEdit_918=tk.Entry(root)
@@ -204,7 +217,8 @@ class App:
         GLineEdit_918["font"] = ft
         GLineEdit_918["fg"] = "#333333"
         GLineEdit_918["justify"] = "center"
-        GLineEdit_918["text"] = "Entry"
+        self.run918 = tk.StringVar()
+        GLineEdit_918["textvariable"] = self.run918
         GLineEdit_918.place(x=300,y=290,width=70,height=25)
 
         GLabel_221=tk.Label(root)
@@ -221,7 +235,8 @@ class App:
         GLineEdit_554["font"] = ft
         GLineEdit_554["fg"] = "#333333"
         GLineEdit_554["justify"] = "center"
-        GLineEdit_554["text"] = "Entry"
+        self.run554 = tk.StringVar()
+        GLineEdit_554["textvariable"] = self.run554
         GLineEdit_554.place(x=160,y=330,width=70,height=25)
 
         GLineEdit_105=tk.Entry(root)
@@ -230,7 +245,8 @@ class App:
         GLineEdit_105["font"] = ft
         GLineEdit_105["fg"] = "#333333"
         GLineEdit_105["justify"] = "center"
-        GLineEdit_105["text"] = "Entry"
+        self.run105 = tk.StringVar()
+        GLineEdit_105["textvariable"] = self.run105
         GLineEdit_105.place(x=300,y=330,width=70,height=25)
 
         GLabel_313=tk.Label(root)
@@ -247,7 +263,8 @@ class App:
         GLineEdit_682["font"] = ft
         GLineEdit_682["fg"] = "#333333"
         GLineEdit_682["justify"] = "center"
-        GLineEdit_682["text"] = "Entry"
+        self.run682 = tk.StringVar()
+        GLineEdit_682["textvariable"] = self.run682
         GLineEdit_682.place(x=160,y=370,width=70,height=25)
 
         GLineEdit_109=tk.Entry(root)
@@ -256,7 +273,8 @@ class App:
         GLineEdit_109["font"] = ft
         GLineEdit_109["fg"] = "#333333"
         GLineEdit_109["justify"] = "center"
-        GLineEdit_109["text"] = "Entry"
+        self.run109 = tk.StringVar()
+        GLineEdit_109["textvariable"] = self.run109
         GLineEdit_109.place(x=300,y=370,width=70,height=25)
 
         GLabel_733=tk.Label(root)
@@ -273,7 +291,8 @@ class App:
         GLineEdit_604["font"] = ft
         GLineEdit_604["fg"] = "#333333"
         GLineEdit_604["justify"] = "center"
-        GLineEdit_604["text"] = "Entry"
+        self.run604 = tk.StringVar()
+        GLineEdit_604["textvariable"] = self.run604
         GLineEdit_604.place(x=160,y=410,width=70,height=25)
 
         GLineEdit_364=tk.Entry(root)
@@ -282,7 +301,8 @@ class App:
         GLineEdit_364["font"] = ft
         GLineEdit_364["fg"] = "#333333"
         GLineEdit_364["justify"] = "center"
-        GLineEdit_364["text"] = "Entry"
+        self.run364 = tk.StringVar()
+        GLineEdit_364["textvariable"] = self.run364
         GLineEdit_364.place(x=300,y=410,width=70,height=25)
 
         GLabel_728=tk.Label(root)
@@ -299,7 +319,8 @@ class App:
         GLineEdit_628["font"] = ft
         GLineEdit_628["fg"] = "#333333"
         GLineEdit_628["justify"] = "center"
-        GLineEdit_628["text"] = "Entry"
+        self.run628 = tk.StringVar()
+        GLineEdit_628["textvariable"] = self.run628
         GLineEdit_628.place(x=160,y=450,width=70,height=25)
 
         GLineEdit_402=tk.Entry(root)
@@ -308,7 +329,8 @@ class App:
         GLineEdit_402["font"] = ft
         GLineEdit_402["fg"] = "#333333"
         GLineEdit_402["justify"] = "center"
-        GLineEdit_402["text"] = "Entry"
+        self.run402 = tk.StringVar()
+        GLineEdit_402["textvariable"] = self.run402
         GLineEdit_402.place(x=300,y=450,width=70,height=25)
 
         GLabel_285=tk.Label(root)
@@ -327,7 +349,28 @@ class App:
         GLabel_780["text"] = "Wickets"
         GLabel_780.place(x=300,y=10,width=70,height=25)
     def GButton_192_command(self):
-        print("command")
+        print(self.run299.get())
+        print(self.run333.get())
+        print(self.run429.get())
+        print(self.run814.get())
+        print(self.run326.get())
+        print(self.run112.get())
+        print(self.run497.get())
+        print(self.run898.get())
+        print(self.run150.get())
+        print(self.run86.get())
+        print(self.run44.get())
+        print(self.run394.get())
+        print(self.run211.get())
+        print(self.run918.get())
+        print(self.run554.get())
+        print(self.run105.get())
+        print(self.run682.get())
+        print(self.run109.get())
+        print(self.run604.get())
+        print(self.run364.get())
+        print(self.run628.get())
+        print(self.run402.get())
 
 if __name__ == "__main__":
     root = tk.Tk()
